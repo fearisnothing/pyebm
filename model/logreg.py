@@ -5,11 +5,12 @@ Uses scipy.optimize.fmin_cg for the nonlinear optimization.
 TODO: 
     * Object-orient the whole thing (maybe; I like the simplicity of it now)
     * Fallback to gradient descent if scipy isn't available.
+    * Handle multinomial regression (maybe?)
     * Come up with a test scenario to run if called at the command line.
 
 By David Warde-Farley, April 2008
 
-$Id: logreg.py 52 2008-04-16 07:21:41Z dwf $
+$Id$
 """
 
 import numpy as N
